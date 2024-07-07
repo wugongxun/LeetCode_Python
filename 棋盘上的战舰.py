@@ -3,7 +3,6 @@ from typing import List
 
 class Solution:
     def countBattleships(self, board: List[List[str]]) -> int:
-        m, n = len(board), len(board[0])
         res = 0
         for i, row in enumerate(board):
             for j, c in enumerate(row):
